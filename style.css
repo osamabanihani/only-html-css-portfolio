@@ -608,6 +608,9 @@ a.contact-row:hover .contact-text {
   border-radius: 999px;
   font-weight: 700;
 }
+.back-top {
+  color: #fff;
+}
 .social-btn:focus,
 .social-btn:hover {
   color: #fff;
