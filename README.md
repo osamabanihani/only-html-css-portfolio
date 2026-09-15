@@ -2,97 +2,163 @@
 
 # Osama Banihani | Developer Portfolio
 
-A clean, responsive personal portfolio showcasing my experience, skills, projects, certificates, and professional references.
+A modern, responsive portfolio highlighting my experience, technical skills, selected projects, certificates, and professional background.
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat-square&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
-[![Responsive](https://img.shields.io/badge/Responsive-Yes-0F766E?style=flat-square)](#features)
+[![Live Website](https://img.shields.io/badge/Live_Website-View_Portfolio-e86a4a?style=for-the-badge\&logo=vercel\&logoColor=white)](https://only-html-css-portfolio.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-osamabanihani-18252f?style=for-the-badge\&logo=github)](https://github.com/osamabanihani)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Osama_Banihani-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/osama-banihani-/)
 
 </div>
 
-## About the Project
+---
 
-This repository contains my personal developer portfolio. It presents my background as a Junior Full Stack Developer and highlights practical experience across web and mobile development.
+## Overview
 
-The website is built with semantic HTML5 and clean CSS3. Bootstrap is used for the responsive navbar, footer layout, and utility classes. The mobile navigation works with CSS only, so the project does not require JavaScript.
+This repository contains my personal developer portfolio, created to present my professional profile, development experience, technical abilities, projects, certificates, and contact information in a clear and accessible format.
 
-## Features
+The website focuses on responsive design, structured content, clean visual hierarchy, and compatibility across desktop, tablet, and mobile devices.
 
-- Fully responsive layout for desktop, tablet, and mobile
-- CSS-only mobile navigation menu
-- About, experience, education, and skills sections
-- Project cards with screenshots, technology tags, and GitHub links
-- Certificate gallery with downloadable PDF copies
-- Professional references with LinkedIn links
-- Accessible labels and semantic HTML elements
-- Contact footer with social links
-- No installation, build process, or JavaScript required
+### Live Portfolio
+
+**[only-html-css-portfolio.vercel.app](https://only-html-css-portfolio.vercel.app/)**
+
+---
+
+## About Me
+
+I’m **Osama Banihani**, a Computer Science graduate and Junior Full Stack Developer based in Jordan.
+
+I have hands-on experience developing web and mobile applications using technologies such as React, Node.js, Express, MongoDB, Flutter, and RESTful APIs. I enjoy transforming ideas and designs into responsive, functional, and user-friendly digital products.
+
+---
+
+## Portfolio Highlights
+
+* Clean and professional user interface
+* Fully responsive layout
+* Mobile-friendly navigation
+* Structured experience and education sections
+* Technical skills presentation
+* Selected development projects
+* Viewable professional certificates
+* Downloadable résumé
+* Professional references
+* Direct email and social media links
+* Deployed publicly through Vercel
+
+---
 
 ## Technologies
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- Font Awesome
-- Google Fonts
-- CSS Grid and Flexbox
-- CSS custom properties and media queries
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square\&logo=css3\&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square\&logo=bootstrap\&logoColor=white)
+![Responsive Design](https://img.shields.io/badge/Responsive_Design-0F766E?style=flat-square)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square\&logo=vercel\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
+
+</div>
+
+---
+
+## Main Sections
+
+| Section      | Description                                        |
+| ------------ | -------------------------------------------------- |
+| Home         | Professional introduction and quick action buttons |
+| About        | Career summary and professional background         |
+| Experience   | Web and mobile development experience              |
+| Education    | Academic qualifications                            |
+| Skills       | Technical tools and development technologies       |
+| Projects     | Selected web and mobile projects                   |
+| Certificates | Professional certificates with PDF previews        |
+| References   | Professional recommendations and contact details   |
+| Contact      | Email, LinkedIn, GitHub, and location information  |
+
+---
+
+## Responsive Design
+
+The portfolio uses CSS Grid, Flexbox, scalable typography, and media queries to provide an optimized experience across different screen sizes.
+
+| Device  | Layout                                      |
+| ------- | ------------------------------------------- |
+| Desktop | Multi-column layouts and full navigation    |
+| Tablet  | Reduced columns and adjusted spacing        |
+| Mobile  | Single-column layouts and mobile navigation |
+
+---
 
 ## Project Structure
 
 ```text
-.
+only-html-css-portfolio/
+│
+├── assets/
+│   ├── certificates/
+│   │   ├── droidcon-amman.jpg
+│   │   ├── flutter-development.jpg
+│   │   ├── mern-full-stack.jpg
+│   │   └── udemy.jpg
+│   │
+│   ├── projects/
+│   │   └── project images
+│   │
+│   └── Cv/
+│       └── Osama_Banihani_CV.pdf
+│
 ├── index.html
 ├── style.css
-├── assets
-│   ├── projects
-│   │   └── Project preview images
-│   └── certificates
-│       ├── Certificate preview images
-│       └── Certificate PDF files
 └── README.md
 ```
 
-## Run Locally
+---
 
-1. Clone the repository:
+## Getting Started
+
+To run the portfolio locally, clone the repository:
 
 ```bash
 git clone https://github.com/osamabanihani/only-html-css-portfolio.git
 ```
 
-2. Open the project directory:
+Move into the project directory:
 
 ```bash
 cd only-html-css-portfolio
 ```
 
-3. Open `index.html` in your browser, or use the **Live Server** extension in VS Code.
+Open `index.html` directly in your browser, or run the project using the **Live Server** extension in Visual Studio Code.
 
-No dependencies or build commands are required.
+---
 
 ## Deployment
 
-### Vercel
+The website is deployed on Vercel and automatically updated whenever new changes are pushed to the `main` branch.
 
-1. Import this GitHub repository into Vercel.
-2. Select **Other** as the framework preset.
-3. Leave the build command empty.
-4. Keep the root directory as `./`.
-5. Click **Deploy**.
+[![Deploy with Vercel](https://vercel.com/button)](https://only-html-css-portfolio.vercel.app/)
 
-The project can also be hosted with GitHub Pages or any static hosting provider.
+---
 
-## Connect
+## Contact
 
-- **LinkedIn:** [linkedin.com/in/osama-banihani-](https://www.linkedin.com/in/osama-banihani-/)
-- **GitHub:** [github.com/osamabanihani](https://github.com/osamabanihani)
+I’m open to junior software development opportunities, internships, collaborations, and professional networking.
+
+* **Name:** Osama Banihani
+* **Location:** Jordan
+* **Email:** [osamabanihani124@gmail.com](mailto:osamabanihani124@gmail.com)
+* **LinkedIn:** [linkedin.com/in/osama-banihani-](https://www.linkedin.com/in/osama-banihani-/)
+* **GitHub:** [github.com/osamabanihani](https://github.com/osamabanihani)
 
 ---
 
 <div align="center">
 
-Made by **Osama Banihani**
+Designed and developed by **Osama Banihani**
+
+[Back to top](#osama-banihani--developer-portfolio)
 
 </div>
