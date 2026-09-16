@@ -275,8 +275,6 @@ h1 span {
   margin: auto;
 }
 .job-box {
-  display: flex;
-  flex-direction: column;
   padding: 20px;
   border: 5px solid #e86a4a;
   border-radius: 15px;
